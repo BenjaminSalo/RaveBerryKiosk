@@ -115,6 +115,15 @@ h1, h2 {
           transform: scale(1.05);
 }
 
+.background .container .raveberry-admin a .hero, .background .container .raveberry a .hero {
+  background: url("img/raveberry_bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
+  background-size: cover;
+  background-position: 50%;
+}
+
 .background .container .raveberry-admin a .hero img, .background .container .raveberry a .hero img {
   -webkit-filter: invert(1);
           filter: invert(1);
@@ -122,5 +131,14 @@ h1, h2 {
 
 .background .container .raveberry-admin a .hero img {
   margin-top: 48px;
+}
+
+.background .container .spotify a .hero {
+  background: url("img/spotify_bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
+  background-size: cover;
+  background-position: 50%;
 }
 /*# sourceMappingURL=style.css.map */
