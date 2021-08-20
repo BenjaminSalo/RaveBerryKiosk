@@ -55,7 +55,7 @@ h1, h2 {
                 text-decoration: none;
                 .hero {
                     height: 80%;
-                    width: 25rem;
+                    width: 20rem;
                     background: linear-gradient(to top, rgb(12, 12, 12), rgb(36, 36, 36));
                     @include flexCenter();
                     flex-direction: column;
@@ -104,6 +104,15 @@ h1, h2 {
                     box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
                     background-size: cover;
                     background-position: 50%;
+                }
+            }
+        }
+        .youtube {
+            a {
+                .hero {
+                    img {
+                        height: 7.5rem;
+                    }
                 }
             }
         }

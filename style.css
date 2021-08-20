@@ -82,7 +82,7 @@ h1, h2 {
 
 .background .container .box a .hero {
   height: 80%;
-  width: 25rem;
+  width: 20rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), to(#242424));
   background: linear-gradient(to top, #0c0c0c, #242424);
   display: -webkit-box;
@@ -140,5 +140,9 @@ h1, h2 {
           box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
   background-size: cover;
   background-position: 50%;
+}
+
+.background .container .youtube a .hero img {
+  height: 7.5rem;
 }
 /*# sourceMappingURL=style.css.map */
