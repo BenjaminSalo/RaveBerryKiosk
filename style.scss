@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1, h2 {
+    color: white;
+}
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flexAround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.background {
+    //background: linear-gradient(to bottom, black, rgb(27, 0, 26));
+    background: rgb(27, 0, 26);
+    height: 100vh;
+    width: 99vw;
+    @include flexAround();
+    flex-direction: column;
+    h1 {
+        font-size: 64px;
+    }
+    .container {
+        width: 100%;
+        height: 75%;
+        @include flexAround();
+        .box {
+            @include flexAround();
+            flex-direction: column;
+            height: 100%;
+            h2 {
+                font-size: 40px;
+            }
+            a {
+                height: 100%;
+                width: 100%;
+                @include flexAround();
+                text-decoration: none;
+                .hero {
+                    height: 80%;
+                    width: 25rem;
+                    background: linear-gradient(to top, rgb(12, 12, 12), rgb(36, 36, 36));
+                    @include flexCenter();
+                    flex-direction: column;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 30px 25px rgba(39, 39, 39, 0.507);
+                    transition: all 200ms ease;
+                    cursor: pointer;
+                    img {
+                        height: 10rem;
+                    }
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }              
+            
+        }
+        .raveberry-admin, .raveberry {
+            a {
+                .hero {
+                    img {
+                        filter: invert(1);
+                    }
+                }
+            }           
+        }
+        .raveberry-admin {
+            a {
+                .hero {
+                    img {
+                        margin-top: 48px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

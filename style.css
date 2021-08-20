@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.background {
+  background: #1b001a;
+  height: 100vh;
+  width: 99vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.background h1 {
+  font-size: 64px;
+}
+
+.background .container {
+  width: 100%;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.background .container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.background .container .box h2 {
+  font-size: 40px;
+}
+
+.background .container .box a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
+
+.background .container .box a .hero {
+  height: 80%;
+  width: 25rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), to(#242424));
+  background: linear-gradient(to top, #0c0c0c, #242424);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 25px rgba(39, 39, 39, 0.507);
+          box-shadow: 0px 0px 30px 25px rgba(39, 39, 39, 0.507);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.background .container .box a .hero img {
+  height: 10rem;
+}
+
+.background .container .box a .hero:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.background .container .raveberry-admin a .hero img, .background .container .raveberry a .hero img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.background .container .raveberry-admin a .hero img {
+  margin-top: 48px;
+}
+/*# sourceMappingURL=style.css.map */
