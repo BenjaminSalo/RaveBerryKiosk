@@ -125,7 +125,7 @@ h1, h2 {
   -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
           box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.589);
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% -1rem;
 }
 
 .background .container .raveberry-admin a .hero img, .background .container .raveberry a .hero img {
@@ -135,6 +135,9 @@ h1, h2 {
 
 .background .container .raveberry-admin a .hero {
   background: url("img/raveberry_admin_bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .background .container .raveberry-admin a .hero img {
