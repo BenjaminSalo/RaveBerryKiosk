@@ -133,6 +133,10 @@ h1, h2 {
           filter: invert(1);
 }
 
+.background .container .raveberry-admin a .hero {
+  background: url("img/raveberry_admin_bg.jpg");
+}
+
 .background .container .raveberry-admin a .hero img {
   margin-top: 48px;
 }
