@@ -44,8 +44,8 @@ h1, h2 {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .background .container .box {
@@ -69,7 +69,7 @@ h1, h2 {
 }
 
 .background .container .box a {
-  height: 100%;
+  height: 80%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,7 +83,7 @@ h1, h2 {
 }
 
 .background .container .box a .hero {
-  height: 80%;
+  height: 100%;
   width: 20rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#0c0c0c), to(#242424));
   background: linear-gradient(to top, #0c0c0c, #242424);
@@ -160,5 +160,58 @@ h1, h2 {
 
 .background .container .youtube a .hero img {
   height: 7.5rem;
+}
+
+.background .qrcodes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.background .qrcodes .connections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background .qrcodes .connections .connect-wifi, .background .qrcodes .connections .connect-raveberry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 .5rem;
+}
+
+.background .qrcodes .connections .connect-wifi h4, .background .qrcodes .connections .connect-raveberry h4 {
+  color: white;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+}
+
+.background .qrcodes .connections .connect-wifi img, .background .qrcodes .connections .connect-raveberry img {
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
